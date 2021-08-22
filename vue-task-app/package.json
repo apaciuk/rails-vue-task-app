@@ -1,0 +1,35 @@
+{
+  "name": "nuxt-task-app",
+  "version": "1.0.0",
+  "description": "Nuxt.js project + Bootstrap Vue CSS Framework",
+  "author": "Paul Anthony McGowan <xhostcom@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.21.2",
+    "nuxt": "^2.9.2",
+    "nuxt-property-decorator": "^2.9.1",
+    "webfontloader": "^1.6.28"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.8",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.4.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^10.1.1"
+  }
+}
